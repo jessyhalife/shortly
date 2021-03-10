@@ -1,0 +1,22 @@
+.hero__footer {
+  background: #3b3054 url("../../images/bg-boost-desktop.svg") 100% 0 no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 48px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__footer h1 {
+  color: white;
+}
+
+.hero__button.center {
+  align-self: center;
+}

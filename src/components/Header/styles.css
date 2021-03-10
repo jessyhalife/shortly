@@ -1,0 +1,38 @@
+.header {
+  background-color: white;
+  padding: 64px 64px;
+  margin: auto;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__items ul {
+  display: none;
+}
+
+ul a {
+  color: hsl(0, 0%, 60%);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.nav__items {
+  display: flex;
+  gap: 48px;
+}
+
+.nav__signup__button {
+  background: var(--clr-primary-cyan);
+  border-radius: 48px;
+  padding: 8px 16px;
+  margin-left: 4px;
+}
+
+.nav__signup__button a {
+  color: white;
+}
